@@ -93,8 +93,11 @@ nav li:hover .sub{
   width: 15%;
   list-style: none;
   float: left;
-  border: 20px solid #ffffff;
-  border-left: 60px solid #ffffff;
+
+  position: fixed;
+  bottom: 100px;
+  left: 30px;
+
 }
 .list ul{
   overflow: hidden;
@@ -121,10 +124,12 @@ nav li:hover .sub{
 
 /*――――――――――――――――――――――――――――――――――――――――――――――――――　本旨　―――――――――――――――――――――――――――――――――――――――――――――――――――――――*/
 .news{
-  border: 5px solid #5abbe4;
-  width: 50%;
-  padding: 25px;
-  float: left;
+  width: 100%;
+}
+
+main {
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 
@@ -173,7 +178,7 @@ footer {
 	padding-bottom: 3rem;
 	background-color: #426075;
 	color: #eaeaea;
-	float: left;
+    clear: both;
 }
 
 footer a {
@@ -184,6 +189,10 @@ footer a:hover {
 	color: #fde3d3;
 }
 
+.footer {
+	padding-left: 300px;
+	padding-right: 300px;
+}
 
 /*ページトップへ戻るボタン
 -------------------------------------*/
